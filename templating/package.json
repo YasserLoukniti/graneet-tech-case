@@ -1,0 +1,23 @@
+{
+  "name": "@graneet-case/pdf-templating",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Brique de templating : données -> HTML (et XML CII Factur-X) prêts pour le rendu PDF",
+  "scripts": {
+    "test": "node --import tsx --test \"test/*.test.ts\"",
+    "demo": "node --import tsx examples/demo.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^6.0.3"
+  }
+}
